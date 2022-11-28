@@ -1,6 +1,8 @@
-const users = require("./users");
-const companies = require("./companies");
-const fastify = require("fastify")({
+import Fastify from "fastify";
+import users from "./users.js";
+import companies from "./companies.js";
+
+const fastify = Fastify({
   logger: true,
 });
 

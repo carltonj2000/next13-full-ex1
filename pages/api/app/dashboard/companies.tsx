@@ -2,8 +2,7 @@ import { use } from "react";
 
 async function getCompanies() {
   //let companies = await fetch("https://dummyjson.com/companies");
-  //const companies = await fetch("http://localhost:3001/companies");
-  const companies = await fetch("http://localhost:3000/api/companies");
+  const companies = await fetch("http://localhost:3001/companies");
   return companies.json();
 }
 

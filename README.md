@@ -13,3 +13,9 @@ npx tailwindcss init
 The code in this reposiory is based on the
 [Next.js 13](https://www.youtube.com/watch?v=xXwxEudjiAY&list=PLxCkFZQohykk8ejbV94XbigHSONNq4m3C)
 video series.
+
+## Code Completion History
+
+- 28Nov22 Third Video https://youtu.be/dDTW-psAwuw
+- 27Nov22 Second Video https://youtu.be/WRjEcsxuedA
+- 27Nov22 First Video

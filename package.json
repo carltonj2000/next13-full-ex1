@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"tailwindcss --input ./app/globals.css --output ./app/output.css --watch\"",
+    "dev:server": "cd server && npm run start",
+    "dev:both": "concurrently \"npm run dev\" \"npm run dev:server\"",
     "build": "tailwindcss ./app/globals.css --output ./app/output.css && next build",
     "dev:old": "next dev",
     "build:old": "next build",

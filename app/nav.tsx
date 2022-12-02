@@ -12,6 +12,9 @@ export default function RootLayout() {
       <Link className="bg-red-200 px-2 rounded-md" href="/dashboard">
         Dashboard
       </Link>
+      <Link className="bg-red-200 px-2 rounded-md" href="/auth">
+        Auth
+      </Link>
     </nav>
   );
 }

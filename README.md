@@ -1,11 +1,21 @@
 ## Next JS 13 Full Example
 
+Create the following file for auth:
+
+```title=".env.local"
+GITHUB_ID=xxx
+GITHUB_SECRET=yyy
+```
+
+Failed getting a server rendered from with a client component.
+
 ## Creation History
 
 ```bash
 npx create-next-app@latest
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+npm i next-auth
 ```
 
 ## Code History
@@ -16,6 +26,7 @@ video series.
 
 ## Code Completion History
 
+- 02Dec22 Seventh/Final Video Auth https://youtu.be/DfIDr2jCkHo
 - 02Dec22 Sixth Video ToDo App https://youtu.be/Y1FwWlBFUi8
 - 30Nov22 Fifth Video Client/Server
 - 30Nov22 Fourth Video https://youtu.be/pJDFvQu2DYE

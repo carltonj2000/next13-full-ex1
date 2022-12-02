@@ -1,6 +1,6 @@
 import "./output.css";
 import Nav from "./nav";
-
+import Providers from "./providers";
 export default function RootLayout({
   children,
 }: {
@@ -11,7 +11,7 @@ export default function RootLayout({
       <head />
       <body className="min-w-[480px] shadow shadow-slate-100 pb-4">
         <Nav />
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
